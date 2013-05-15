@@ -1,0 +1,15 @@
+* Mon Jun 23 2009 Todd Brandt <todd.e.brandt@intel.com> 1.0
+- Created an init.d script so bluetooth starts on boot
+
+* Tue Jun 16 2009 Todd Brandt <todd.e.brandt@intel.com> 1.0
+- Cleaned up the hciattach output so that it tells the user
+  the connection succeeded
+- Removed the system calls in hciattach and replaced them
+  fwrites to the sysfs files.
+- Added a set of scripts for bluetooth HFP and init
+
+* Thu May 28 2009 Todd Brandt <todd.e.brandt@intel.com> 1.0
+- Removed debug info from the program output.
+
+* Wed May 20 2009 Todd Brandt <todd.e.brandt@intel.com> 1.0
+- Initial drop
